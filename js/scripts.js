@@ -24,6 +24,21 @@ $('#VinceImg').hover(function () {
 }, function () {
     $(this).attr('src', 'Images/VK.jpg');
 });
+$('#SMFB').hover(function () {
+    $(this).attr('src', 'Images/facebook-logo-y.png');
+}, function () {
+    $(this).attr('src', 'Images/facebook-logo.png');
+});
+$('#SMT').hover(function () {
+    $(this).attr('src', 'Images/twitter-logo-y.png');
+}, function () {
+    $(this).attr('src', 'Images/twitter-logo.png');
+});
+$('#SMYT').hover(function () {
+    $(this).attr('src', 'Images/youtube-logo-y.png');
+}, function () {
+    $(this).attr('src', 'Images/youtube-logo.png');
+});
 
 var divPos = {};
 var offset = $("#pyramidDiv").offset();
