@@ -1,25 +1,29 @@
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 h2 {
-  font-size: 2.0vh;
+  font-size: 2.0vw;
 }
 h3{
-     font-size: 1.5vw;
+     font-size: 1.0vw;
 }
-p,li,button,address,a,input,label {
-  font-size: 1.2vmin;
+p,li,button,address,input,label {
+  font-size: 1.7vmin;
+}
+a {
+font-size: 1.5vmin;
 }
 html {
     min-height:100%;
     min-width:100%;    
-    cursor:url('Images/cursor.ico');
+    cursor:url(Images\cursor.ico);
 }
 body {
+     padding-top: 50px; 
     max-width:100%;
 }
-h1, button, address,h3,a,input,label{
+h1,h2, button, address,h3,a,input,label, textarea{
     font-weight:bold;
     font-family:Arial, Helvetica, sans-serif;
     font-variant:small-caps;
@@ -212,4 +216,11 @@ img.img-responsive {
     line-height: 1;
     border-radius:3px;
   }
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: #0D0D0D;
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #ffbf00;
 }
